@@ -8,8 +8,7 @@ let package = Package(
 		.executable(name: "PerfectTemplate", targets: ["PerfectTemplate"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/PerfectlySoft/Perfect-HTTPServer.git", from: "3.0.0"),
-        .Package(url: "https://github.com/PerfectlySoft/Perfect-HTTPServer.git", majorVersion: 3)
+        .Package(url: "https://github.com/PerfectlySoft/Perfect-HTTPServer.git", majorVersion: 4)
 	],
 	targets: [
 		.target(name: "PerfectTemplate", dependencies: ["PerfectHTTPServer"])
